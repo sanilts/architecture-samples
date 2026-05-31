@@ -109,6 +109,8 @@ android {
  all versions in a single place. This improves readability and helps managing project complexity.
  */
 dependencies {
+    implementation("com.squareup.okhttp3:okhttp:4.11.0")
+    implementation("com.google.code.gson:gson:2.10.1")
 
     // App dependencies
     implementation(libs.androidx.annotation)
